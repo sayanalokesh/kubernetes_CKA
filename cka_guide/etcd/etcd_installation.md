@@ -16,3 +16,12 @@ etcd --version
 etcdctl version
 etcdutl version
 ```
+We need to change the API version to 3. To do that, use the below command.
+
+```
+export ETCDCTL_API=3 etcdctl version
+etcdctl version
+```
+![image](https://github.com/sayanalokesh/kubernetes_CKA/assets/105637305/4be0d8a5-2ad1-4234-a99e-780f159a0959)
+![image](https://github.com/sayanalokesh/kubernetes_CKA/assets/105637305/d4b19e82-173c-40e9-b696-c71f89f4a032)
+
