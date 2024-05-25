@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+
+
+# kubectl create -f namespace-dev.yaml - command to execute
+# kubectl get ns  - to view the namespaces in the cluster
+# kubectl config set-context $(kubectl config current-context) --namespace=default
+# kubect get pods --all-namespaces  - to get all pods in all namespaces
